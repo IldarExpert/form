@@ -1,0 +1,7 @@
+.userListScreen {
+  display: flex;
+
+  @media (max-width: 576px) {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,23 @@
+.blue {
+  background: #4B51EF;
+  color: #fff;
+}
+
+.green {
+  background: #52CF4F;
+  color: #fff;
+}
+
+.button {
+  font-size: 12px;
+  line-height: 14px;
+
+  border-radius: 5px;
+
+  padding: 5px 15px;
+
+  &:disabled {
+    background: #AFAFAF;
+    cursor: auto;
+  }
+}

@@ -1,0 +1,22 @@
+.item {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+
+  color: #000000;
+
+  list-style: none;
+
+  margin-bottom: 7px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.description {
+  font-size: inherit;
+  line-height: inherit;
+
+  color: #A3A3A3;
+}

@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 8px;
+  line-height: 9px;
+
+  padding-bottom: 3px;
+}
+
+.textarea {
+  padding: 5px 10px;
+
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #000000;
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  border-radius: 5px;
+
+  resize: none;
+
+  &:disabled {
+    color: rgba(0, 0, 0, 0.3);
+  }
+}
